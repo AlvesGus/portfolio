@@ -1,0 +1,73 @@
+{
+  "project": [
+    {
+      "id": 0,
+      "slug": "links-me",
+      "title": "LinksMe",
+      "description": "O LinksMe foi um projeto pessoal com o objetivo de criar um redirecionador de Links pessoais, afim de ter todos meus meios comunicativos em um único lugar. Também é usado como um armazenador de Artigos criados atráves do TABNEWS e consumindo a API desenvolvida por eles.",
+      "web": "https://links-me.vercel.app/",
+      "github": "https://github.com/AlvesGus/LinksMe",
+      "img": [
+        {
+          "img_home": "https://i.imgur.com/5bANgai.png",
+          "img_support": "https://i.imgur.com/3yCftZR.png",
+          "img_supp_2": "https://i.imgur.com/3yCftZR.png"
+        }
+      ],
+      "tag": "Projeto Pessoal",
+      "stacks": [
+        {
+          "linguagem": "ReactJS",
+          "estilização": "TailwindCSS",
+          "apis": "TabNews"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "slug": "dev-Burguer",
+      "title": "DevBurguer",
+      "description": "Projeto foi desenvolvido atráves de uma sequência de videos do Youtuber  e Professor Sujeito Programador, no qual tem como objetivo criar um cárdapio online podendo então selecionar os pratos, as quantidades e então enviar para o restaurante atráves da API WhatpsApp.",
+      "web": "https://dev-burguer-eta.vercel.app/",
+      "github": "https://github.com/AlvesGus/DevBurguer",
+      "img": [
+        {
+          "img_home": "https://i.imgur.com/POdEPul.png",
+          "img_support": "https://i.imgur.com/jS3tjh0.png",
+          "img_supp_2": "https://i.imgur.com/3yCftZR.png"
+        }
+      ],
+      "tag": "Estudo de caso",
+      "stacks": [
+        {
+          "linguagem": "ReactJS",
+          "estilização": "CSS3",
+          "apis": "Firebase"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "devhelp-desk",
+      "title": "DevHelp Desk",
+      "description": "DevHelp Desk, foi um projeto de um curso realizado e desenvolvido pelo Youtuber e Orientador Matheus Fraga - Sujeito Programador, no qual tem como objetivo desenvolver uma aplicação com ReactJS e consumir alguns dados hospedados no FIREBASE como auth (autenticação) e banco de dados, sendo um aplicativo completo. Onde podemos criar novos usuários, realizar o login, adicionar novos chamados e novos clientes.",
+      "web": "https://help-desk-nu.vercel.app/",
+      "github": "https://github.com/AlvesGus/Help_Desk",
+      "img": [
+        {
+          "img_home": "https://i.imgur.com/nf0tBpl.png",
+          "img_support": "https://i.imgur.com/qcCL6g6.png",
+          "img_supp_2": "https://i.imgur.com/pHEvJSZ.png"
+        }
+      ],
+      "tag": "Estudo de caso",
+      "stacks": [
+        {
+          "linguagem": "ReactJS",
+          "estilização": "CSS3",
+          "apis": "Firebase e Axios"
+        }
+      ]
+    }
+  ]
+}
