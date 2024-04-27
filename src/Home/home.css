@@ -69,6 +69,44 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #1e1e1e);
   z-index: 10;
 }
+@media screen and (max-width: 768px) {
+  #home {
+    height: auto;
+  }
+  .home {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  .home-img img {
+    width: 350px;
+  }
+  .home-text {
+    max-width: 350px;
+    text-align: center;
+  }
+  .home-text h2 {
+    font-size: 24px;
+  }
+  .home-text h1 {
+    font-size: 46px;
+  }
+  .home-text span {
+    font-size: 24px;
+  }
+  .home-text .fa-chevron-right {
+    font-size: 20px;
+  }
+  .slide {
+    margin-top: 50px;
+  }
+  .slide::after,
+  .slide::before {
+    display: none;
+  }
+}
 
 #about {
   padding: 80px;
@@ -127,6 +165,35 @@
 .about-text p {
   font-size: 20px;
   margin: 0 10px;
+}
+@media screen and (max-width: 768px) {
+  #about {
+    height: auto;
+    padding: 14px;
+    margin: 0 auto;
+  }
+  .about-content {
+    max-width: 500px;
+    margin-top: 50px;
+  }
+  .about-title {
+    font-size: 32px;
+  }
+  .about-subtitle {
+    font-size: 18px;
+  }
+
+  .card-about {
+    flex-direction: column;
+  }
+  .about-item {
+    margin-top: 50px;
+  }
+  .about-text i {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+  }
 }
 
 #project {
@@ -198,11 +265,7 @@
   padding: 3px;
   border-radius: 16px;
 }
-.project-item i {
-  transform: rotate(45deg);
-  font-size: 24px;
-  color: #fff;
-}
+
 .link-btn {
   background-color: transparent;
   border: none;
@@ -219,4 +282,37 @@
   border-radius: 16px;
   padding: 10px;
   background-color: #fcff51;
+}
+
+@media screen and (max-width: 768px) {
+  #project {
+    height: auto;
+    width: 100%;
+  }
+  .project-title {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+  .project-subtitle {
+    font-size: 18px;
+  }
+  .project-card {
+    max-width: 500px;
+  }
+  .project-card::after,
+  .project-card::before {
+    display: none;
+  }
+  .project-item img {
+    width: 400px;
+  }
+  .project-card-title {
+    font-size: 32px;
+  }
+  .link-btn h2 {
+    font-size: 32px;
+  }
+  .button {
+    font-size: 12px;
+  }
 }

@@ -30,19 +30,19 @@ export default function Home() {
     {
       id: 1,
       name: 'Visão',
-      icon: <i class="fa-solid fa-binoculars"></i>,
+      icon: <i className="fa-solid fa-binoculars"></i>,
       description: 'De olho no futuro, analise crítica e trabalho em equipe'
     },
     {
       id: 2,
       name: 'Missão',
-      icon: <i class="fa-solid fa-bullseye"></i>,
+      icon: <i className="fa-solid fa-bullseye"></i>,
       description: 'Inovação, resolução de problemas e tornar a vida mais fácil'
     },
     {
       id: 3,
       name: 'Comprometimento',
-      icon: <i class="fa-solid fa-handshake"></i>,
+      icon: <i className="fa-solid fa-handshake"></i>,
       description: 'Comprometido com o futuro e aprendizado continuo'
     }
   ]
@@ -55,14 +55,14 @@ export default function Home() {
             <h2>Olá, sou o</h2>
             <h1>Gustavo Alves</h1>
             <span>
-              <i class="fa-solid fa-chevron-right"></i>Dev Frontend e Pescador
-              Esportivo
+              <i className="fa-solid fa-chevron-right"></i>Dev Frontend e
+              Pescador Esportivo
             </span>
             <Marquee pauseOnHover={true} speed={80} className="slide">
-              <i class="fa-brands fa-html5"></i>
-              <i class="fa-brands fa-react"></i>
-              <i class="fa-brands fa-css3-alt"></i>
-              <i class="fa-brands fa-js"></i>
+              <i className="fa-brands fa-html5"></i>
+              <i className="fa-brands fa-react"></i>
+              <i className="fa-brands fa-css3-alt"></i>
+              <i className="fa-brands fa-js"></i>
             </Marquee>
           </div>
 

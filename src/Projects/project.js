@@ -65,7 +65,7 @@ export default function Project() {
             <span>{project.tag}</span>
           </div>
           <div className="project-slider">
-            <Swiper
+            <Swiper id='swiper'
               slidesPerView={1}
               pagination={{ clickable: true }}
               navigation

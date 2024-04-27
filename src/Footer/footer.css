@@ -38,3 +38,14 @@
 .footer-content-link i:hover {
   color: #fcff51;
 }
+
+@media screen and (max-width: 768px) {
+  #footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer-copyright {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+}

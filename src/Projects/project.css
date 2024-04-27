@@ -104,3 +104,59 @@
 .img-slider .mobile {
   width: 300px;
 }
+
+@media screen and (max-width: 768px) {
+  .project {
+    height: 100vh;
+  }
+
+  .project-container {
+    max-width: 500px;
+    height: auto;
+    margin: 0;
+  }
+  .project-title h2 {
+    font-size: 32px;
+    margin-top: 0;
+    line-height: 130%;
+    letter-spacing: 2px;
+  }
+  .project-title span {
+    font-size: 14px;
+    color: #a7a7a7;
+    margin: 0;
+  }
+  .project-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+  }
+  .project-stack {
+    font-size: 12px;
+    margin: 0;
+  }
+  .img-slider img {
+    width: 320px;
+  }
+  .img-slider .mobile {
+    width: 150px;
+  }
+  .history-project p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 130%;
+    margin: 25px;
+  }
+  .history-project {
+    height: 300px;
+  }
+  .history-project a {
+    width: 350px;
+    margin: 25px;
+    background-color: #fcff51;
+    padding: 10px;
+    color: #333;
+    border-radius: 16px;
+  }
+}
